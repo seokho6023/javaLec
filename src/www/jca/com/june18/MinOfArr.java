@@ -4,7 +4,7 @@ public class MinOfArr {
 	public int minOf(int[]a) {
 		int min = a[0];
 		for (int i=1; i<a.length;i++) {
-			if (min>a[i]) {
+			if (a[i]<min) {
 				min=a[i];
 			}
 		}	
@@ -20,6 +20,6 @@ public class MinOfArr {
 		// int[] arr = {5,7,3,2,6}; 
 		MinOfArr ss = new MinOfArr();
 		int result = ss.minOf(arr);
-		System.out.println("ë°°ì—´ì˜ ìµœì†Ÿê°’: "+result);
+		System.out.println("¹è¿­ÀÇ ÃÖ¼Ú°ª:"+ result);
 	}
 }
