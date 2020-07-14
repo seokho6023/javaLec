@@ -1,15 +1,16 @@
-package www.jca.com.june11;
+package www.jca.com.july12;
 
 import java.util.Scanner;
 
 public class MethodPractice1 {
-	public int sumTo(int input) {
+	public int sumTo(int input)  {
 		int result = 0;
 		for(int i=1; i<=input; i++) {
 			result += i;
 		}
 		return result;
 	}
+	
 	public static void main(String[] args) {
 		MethodPractice1 p = new MethodPractice1();
 		
@@ -20,4 +21,6 @@ public class MethodPractice1 {
 		System.out.println("result = "+ result);
 		scanner.close();
 	}
+	
+	
 }
